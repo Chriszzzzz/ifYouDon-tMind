@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        var hour = 11;
+        var mintues = 40;
+        var period = "AM";
+        
+        var str = "It's";
+        
+        if(mintues > 30)
+            {
+                str = str + "almost" + (hour + 1);
+            }
+        else
+            {
+                str = str + "just after" + hour
+            }
+        if(period == "PM")
+            {if hour > 6}
+            {
+                str = str + "in the evening"
+            }
+        else
+            {
+                str = str + "in the morning"
+            }
+        console.log(str)
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
